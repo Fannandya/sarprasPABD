@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace projekPABD1
 {
-    public partial class MaintenanceBarang: Form
+    public partial class MaintenanceBarang : Form
     {
         public MaintenanceBarang()
         {
             InitializeComponent();
+        }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            HomePage home = new HomePage();
+            home.Show();
+            this.Hide();
         }
     }
 }

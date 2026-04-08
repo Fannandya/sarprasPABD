@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace projekPABD1
 {
-    public partial class Report: Form
+    public partial class Report : Form
     {
         public Report()
         {
             InitializeComponent();
+        }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            HomePage home = new HomePage();
+            home.Show();
+            this.Hide();
         }
     }
 }

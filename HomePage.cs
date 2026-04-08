@@ -16,5 +16,43 @@ namespace projekPABD1
         {
             InitializeComponent();
         }
+
+        private void btnPermintaan_Click(object sender, EventArgs e)
+        {
+            // membuat objek ke form PermintaanBarang
+            PermintaanBarang permintaan = new PermintaanBarang();
+            // menampilkan form PermintaanBarang
+            permintaan.Show();
+            // menyembunyikan halaman asal biar tidak numpuk
+            this.Hide();
+        }
+
+        private void btnKelola_Click(object sender, EventArgs e)
+        {
+            KelolaBarang kelola = new KelolaBarang();
+            kelola.Show();
+            this.Hide();
+        }
+
+        private void btnPengecekan_Click(object sender, EventArgs e)
+        {
+            PengecekanBarang pengecekan = new PengecekanBarang();
+            pengecekan.Show();
+            this.Hide();
+        }
+
+        private void btnMaintenance_Click(object sender, EventArgs e)
+        {
+            MaintenanceBarang maintenance = new MaintenanceBarang();
+            maintenance.Show();
+            this.Hide();
+        }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            Report reportBarang = new Report();
+            reportBarang.Show();
+            this.Hide();
+        }
     }
 }

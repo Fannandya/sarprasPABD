@@ -16,5 +16,12 @@ namespace projekPABD1
         {
             InitializeComponent();
         }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            HomePage home = new HomePage();
+            home.Show();
+            this.Hide();
+        }
     }
 }
