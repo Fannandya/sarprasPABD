@@ -33,13 +33,14 @@
             this.btnReport = new System.Windows.Forms.Button();
             this.btnKelola = new System.Windows.Forms.Button();
             this.btnPermintaan = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnMaintenance
             // 
-            this.btnMaintenance.Location = new System.Drawing.Point(480, 125);
+            this.btnMaintenance.Location = new System.Drawing.Point(337, 292);
             this.btnMaintenance.Name = "btnMaintenance";
-            this.btnMaintenance.Size = new System.Drawing.Size(106, 35);
+            this.btnMaintenance.Size = new System.Drawing.Size(123, 35);
             this.btnMaintenance.TabIndex = 0;
             this.btnMaintenance.Text = "maintenance";
             this.btnMaintenance.UseVisualStyleBackColor = true;
@@ -47,9 +48,9 @@
             // 
             // btnPengecekan
             // 
-            this.btnPengecekan.Location = new System.Drawing.Point(317, 125);
+            this.btnPengecekan.Location = new System.Drawing.Point(337, 234);
             this.btnPengecekan.Name = "btnPengecekan";
-            this.btnPengecekan.Size = new System.Drawing.Size(110, 35);
+            this.btnPengecekan.Size = new System.Drawing.Size(123, 35);
             this.btnPengecekan.TabIndex = 1;
             this.btnPengecekan.Text = "pengecekan";
             this.btnPengecekan.UseVisualStyleBackColor = true;
@@ -57,9 +58,9 @@
             // 
             // btnReport
             // 
-            this.btnReport.Location = new System.Drawing.Point(656, 125);
+            this.btnReport.Location = new System.Drawing.Point(337, 346);
             this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(87, 35);
+            this.btnReport.Size = new System.Drawing.Size(123, 35);
             this.btnReport.TabIndex = 2;
             this.btnReport.Text = "report";
             this.btnReport.UseVisualStyleBackColor = true;
@@ -67,7 +68,7 @@
             // 
             // btnKelola
             // 
-            this.btnKelola.Location = new System.Drawing.Point(168, 125);
+            this.btnKelola.Location = new System.Drawing.Point(337, 117);
             this.btnKelola.Name = "btnKelola";
             this.btnKelola.Size = new System.Drawing.Size(123, 35);
             this.btnKelola.TabIndex = 3;
@@ -77,19 +78,29 @@
             // 
             // btnPermintaan
             // 
-            this.btnPermintaan.Location = new System.Drawing.Point(22, 125);
+            this.btnPermintaan.Location = new System.Drawing.Point(337, 174);
             this.btnPermintaan.Name = "btnPermintaan";
-            this.btnPermintaan.Size = new System.Drawing.Size(109, 35);
+            this.btnPermintaan.Size = new System.Drawing.Size(123, 35);
             this.btnPermintaan.TabIndex = 4;
             this.btnPermintaan.Text = "permintaan";
             this.btnPermintaan.UseVisualStyleBackColor = true;
             this.btnPermintaan.Click += new System.EventHandler(this.btnPermintaan_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(256, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(291, 16);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Selamat datang admin, semangat input datanya";
             // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnPermintaan);
             this.Controls.Add(this.btnKelola);
             this.Controls.Add(this.btnReport);
@@ -98,6 +109,7 @@
             this.Name = "HomePage";
             this.Text = "HomePage";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Button btnReport;
         private System.Windows.Forms.Button btnKelola;
         private System.Windows.Forms.Button btnPermintaan;
+        private System.Windows.Forms.Label label1;
     }
 }
 

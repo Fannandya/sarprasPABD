@@ -33,10 +33,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dtpPengecekan = new System.Windows.Forms.DateTimePicker();
+            this.txtKaryawan = new System.Windows.Forms.TextBox();
+            this.txtBarang = new System.Windows.Forms.TextBox();
+            this.txtKondisi = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
@@ -89,33 +89,33 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Kondisi Barang";
             // 
-            // dateTimePicker1
+            // dtpPengecekan
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(196, 128);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(246, 22);
-            this.dateTimePicker1.TabIndex = 5;
+            this.dtpPengecekan.Location = new System.Drawing.Point(196, 128);
+            this.dtpPengecekan.Name = "dtpPengecekan";
+            this.dtpPengecekan.Size = new System.Drawing.Size(246, 22);
+            this.dtpPengecekan.TabIndex = 5;
             // 
-            // textBox1
+            // txtKaryawan
             // 
-            this.textBox1.Location = new System.Drawing.Point(196, 80);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 22);
-            this.textBox1.TabIndex = 6;
+            this.txtKaryawan.Location = new System.Drawing.Point(196, 80);
+            this.txtKaryawan.Name = "txtKaryawan";
+            this.txtKaryawan.Size = new System.Drawing.Size(246, 22);
+            this.txtKaryawan.TabIndex = 6;
             // 
-            // textBox2
+            // txtBarang
             // 
-            this.textBox2.Location = new System.Drawing.Point(196, 31);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 22);
-            this.textBox2.TabIndex = 7;
+            this.txtBarang.Location = new System.Drawing.Point(196, 31);
+            this.txtBarang.Name = "txtBarang";
+            this.txtBarang.Size = new System.Drawing.Size(246, 22);
+            this.txtBarang.TabIndex = 7;
             // 
-            // textBox3
+            // txtKondisi
             // 
-            this.textBox3.Location = new System.Drawing.Point(196, 173);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(246, 22);
-            this.textBox3.TabIndex = 8;
+            this.txtKondisi.Location = new System.Drawing.Point(196, 173);
+            this.txtKondisi.Name = "txtKondisi";
+            this.txtKondisi.Size = new System.Drawing.Size(246, 22);
+            this.txtKondisi.TabIndex = 8;
             // 
             // dataGridView1
             // 
@@ -153,10 +153,10 @@
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.txtKondisi);
+            this.Controls.Add(this.txtBarang);
+            this.Controls.Add(this.txtKaryawan);
+            this.Controls.Add(this.dtpPengecekan);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -177,10 +177,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DateTimePicker dtpPengecekan;
+        private System.Windows.Forms.TextBox txtKaryawan;
+        private System.Windows.Forms.TextBox txtBarang;
+        private System.Windows.Forms.TextBox txtKondisi;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnSimpan;
         private System.Windows.Forms.Button btnHapus;
