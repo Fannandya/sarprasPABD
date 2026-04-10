@@ -54,11 +54,5 @@ namespace projekPABD1
             reportBarang.Show();
             this.Hide();
         }
-
-        private void btnRefresh_Click(object sender, EventArgs e)
-        {
-            KelolaBarang barang = new KelolaBarang();
-            barang.Show();
-        }
     }
 }

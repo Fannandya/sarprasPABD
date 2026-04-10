@@ -33,7 +33,6 @@
             this.btnReport = new System.Windows.Forms.Button();
             this.btnKelola = new System.Windows.Forms.Button();
             this.btnPermintaan = new System.Windows.Forms.Button();
-            this.btnRefresh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnMaintenance
@@ -86,22 +85,11 @@
             this.btnPermintaan.UseVisualStyleBackColor = true;
             this.btnPermintaan.Click += new System.EventHandler(this.btnPermintaan_Click);
             // 
-            // btnRefresh
-            // 
-            this.btnRefresh.Location = new System.Drawing.Point(317, 255);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(141, 30);
-            this.btnRefresh.TabIndex = 5;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnPermintaan);
             this.Controls.Add(this.btnKelola);
             this.Controls.Add(this.btnReport);
@@ -120,7 +108,6 @@
         private System.Windows.Forms.Button btnReport;
         private System.Windows.Forms.Button btnKelola;
         private System.Windows.Forms.Button btnPermintaan;
-        private System.Windows.Forms.Button btnRefresh;
     }
 }
 
