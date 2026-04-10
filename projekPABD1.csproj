@@ -46,57 +46,57 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomePage.cs">
+    <Compile Include="UI\HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePage.Designer.cs">
+    <Compile Include="UI\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="KelolaBarang.cs">
+    <Compile Include="UI\KelolaBarang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KelolaBarang.Designer.cs">
+    <Compile Include="UI\KelolaBarang.Designer.cs">
       <DependentUpon>KelolaBarang.cs</DependentUpon>
     </Compile>
-    <Compile Include="MaintenanceBarang.cs">
+    <Compile Include="UI\MaintenanceBarang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MaintenanceBarang.Designer.cs">
+    <Compile Include="UI\MaintenanceBarang.Designer.cs">
       <DependentUpon>MaintenanceBarang.cs</DependentUpon>
     </Compile>
-    <Compile Include="PermintaanBarang.cs">
+    <Compile Include="UI\PermintaanBarang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PermintaanBarang.Designer.cs">
+    <Compile Include="UI\PermintaanBarang.Designer.cs">
       <DependentUpon>PermintaanBarang.cs</DependentUpon>
     </Compile>
-    <Compile Include="PengecekanBarang.cs">
+    <Compile Include="UI\PengecekanBarang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PengecekanBarang.Designer.cs">
+    <Compile Include="UI\PengecekanBarang.Designer.cs">
       <DependentUpon>PengecekanBarang.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Report.cs">
+    <Compile Include="UI\Report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Report.Designer.cs">
+    <Compile Include="UI\Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="HomePage.resx">
+    <EmbeddedResource Include="UI\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KelolaBarang.resx">
+    <EmbeddedResource Include="UI\KelolaBarang.resx">
       <DependentUpon>KelolaBarang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MaintenanceBarang.resx">
+    <EmbeddedResource Include="UI\MaintenanceBarang.resx">
       <DependentUpon>MaintenanceBarang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PengecekanBarang.resx">
+    <EmbeddedResource Include="UI\PengecekanBarang.resx">
       <DependentUpon>PengecekanBarang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PermintaanBarang.resx">
+    <EmbeddedResource Include="UI\PermintaanBarang.resx">
       <DependentUpon>PermintaanBarang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -108,7 +108,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Report.resx">
+    <EmbeddedResource Include="UI\Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -123,6 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
